@@ -23,13 +23,15 @@
     <input type="checkbox" name="hobby">
     //인풋 체크박스 타입일 때 nsma을 맞춰준다.
     disabled //체크박스를 못누르게 비활성화 시킴
+    - readonly 속성은 수정은 불가능하지만 데이터가 서버로 전송됩니다.
+    - disabled 속성은 수정도 불가능하고 데이터가 서버로 전송되지 않습니다.
     checked //미리 체크 해놓게 함
     <input type="file" multiple accept="image/*">  
     //multiple 여러개 파일 선택 가능
     //accept="image/*" 이미지 파일만 선택 할 수 있음
    -->
   <form action="https:://wwww.naver.com">
-    <input type="text" value="춘식이" placeholder="텍스트를 적어주세요."><br>
+    <input type="text" value="춘식이" placeholder="텍스트를 적어주세요." readonly><br>
     <input type="password"><br>
     <input type="email"><br>
 
