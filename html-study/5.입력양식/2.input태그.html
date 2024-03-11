@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    input{
+      /* height: 100px; */
+      display: inline-block;
+    }
+    button{
+      /* width: 60px; */
+      display: block;
+    }
+  </style> 
+</head>
+<body>
+
+
+  <!-- 
+    value
+    <input type="checkbox" name="hobby">
+    //인풋 체크박스 타입일 때 nsma을 맞춰준다.
+    disabled //체크박스를 못누르게 비활성화 시킴
+    - readonly 속성은 수정은 불가능하지만 데이터가 서버로 전송됩니다.
+    - disabled 속성은 수정도 불가능하고 데이터가 서버로 전송되지 않습니다.
+    checked //미리 체크 해놓게 함
+    <input type="file" multiple accept="image/*">  
+    //multiple 여러개 파일 선택 가능
+    //accept="image/*" 이미지 파일만 선택 할 수 있음
+   -->
+  <form action="https:://wwww.naver.com">
+    <input type="text" value="춘식이" placeholder="텍스트를 적어주세요." readonly><br>
+    <input type="password"><br>
+    <input type="email"><br>
+
+    <input type="checkbox" name="hobby" disabled>게임<br>
+    <input type="checkbox" name="hobby" checked>수영<br>
+    <input type="checkbox" name="hobby">축구<br>
+
+    <input type="radio" name="mail" checked>예<br>
+    <input type="radio" name="mail" disabled>아니오<br>
+
+    <input type="number" placeholder="숫자만 입력 가능"><br>
+    <input type="number" value="323"><br>
+    <input type="number" value="5" min="3" max="10"><br>
+    <input type="range" value="7" min="0"  max="10"><br>
+    
+    <input type="file" multiple accept="image/*"><br>
+    
+    <!-- 사용자 몰래 서버로 보낼 데이터  type="hidden" -->
+    <input type="hidden" name="nick" value="똥몽청이"><br>
+
+    <button type="button">button</button><br>
+    <button type="submit">submit</button><br>
+    <button type="reset">reset</button><br>
+
+    <input type="button" value="input 뻐튼 button"><br>
+    <input type="submit" value="input 뻐튼 submit"><br>
+    <input type="reset" value="input 뻐튼 reset"><br>
+  </form>
+  
+
+
+</body>
+</html>
