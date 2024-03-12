@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- 
+    em 단위는 요소 자기 자신의 font-size에 영향을 받습니다.
+
+    rem단위는 html태그에서 지정한 font-size에 영향을 받습니다.
+    
+  -->
+  <style>
+    html{
+      font-size: 10px;  /* html 기본 폰트 사이즈는 16px */
+      
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      font-size: 18px; /* html 10px 하면 폰트사이즈가 너무 작아서 body 에 폰트 사이즈 지정해줌 */
+      
+    }
+    div{
+      border: 2px solid grey;
+    }
+    .root{
+      border: 2px solid red;
+
+      /* em 단위는 요소 자기 자신의 font-size에 영향을 받습니다. */
+      /*width: 40em; /* html 기본 폰트 사이즈는 16px * 40em = 640px; 나옴 */
+      /*width: 40em; /* html 기본 폰트 사이즈는 16px * 40em = 640px; 나옴 */
+      /*font-size: 10px;/*  /* 폰트사이즈를 10px로 지정해주면 10px * 40em */
+      
+
+      /* rem단위는 html태그에서 지정한 font-size에 영향을 받습니다. */
+      width: 20rem;/* html font-size 픽셀이 10px * 20rem = 200px 나옴 */ 
+      font-size: 20px;   /* 자기 자신한테 폰트사이즈를 지정해줘도 영향을 받지 않는다. */
+     
+    }
+    .parent{
+      width: 50%; 
+      border: 2px solid blue;
+      margin-left: 50px;
+    }
+    .child{
+      width: 50%;
+      border: 2px solid greenyellow;
+    }
+    
+  </style>
+</head>
+<body>
+
+
+
+
+  <div class="root">ROOT
+    <div class="parent">PARENT
+      <div class="child">CHILD1</div>
+      <div class="child">CHILD2</div>
+    </div>
+  </div>
+</body>
+</html>
