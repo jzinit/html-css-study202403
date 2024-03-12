@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+
+    /* table{
+      width: 550px;
+      margin: 30px auto;
+      box-sizing: border-box;
+      border: 1px solid #123456;
+    }
+    table td{
+      padding: 10px;
+      border: 1px solid #123456;
+    }
+    table tr:first-child td{
+      text-align: center;
+      background-color: #abcdef;
+      border-bottom: 3px solid #123456;
+    }
+    table td:first-child{
+      font-size: 18px;
+      font-weight: bold;;
+    }
+    table tr:nth-child(2) td{
+      border-bottom: 2px dotted #123456;
+    }
+    table td:last-child{
+      border-top: none;
+    }
+    table td span{
+      display: block;
+      font-size: 12px;;
+    } */
+
+
+
+    .text_box{
+      width: 550px;
+      padding: 2px;
+      margin: 30px auto;
+      border:1px solid #123456;
+    }
+    .text_box p:first-child{
+      text-align: center;
+      padding: 15px 0;
+      background: #abcdef;
+      border-bottom: 3px solid #123456;
+    }
+    .text_box p:nth-child(2){
+      border-bottom: 2px dotted #123456;
+    }
+    .text_box p:nth-child(2),
+    .text_box p:last-child{
+      padding: 10px;
+    }
+    .text_box p:last-child{
+      border-top: none;
+    }
+    .text_box p{
+      font-weight: bold;
+      border: 1px solid #123456;
+    }
+    .text_box p span{
+      display: block;
+      font-size: 12px;
+    }
+
+
+    #hover_wrap{
+      padding: 50px 20px;
+      background-color: #eee;
+      width: 550px;
+      margin: 30px auto;
+      box-sizing: border-box;
+    }
+    #hover_wrap p{
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;;
+      color: #fff;
+      text-shadow: 0px 0px 15px #000;
+    }
+    #hover_wrap p:hover{
+      background-color: skyblue;
+      color: yellow;
+      transition: 1s;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- <table>
+  <tr>
+    <td colspan="2">속담풀이</td>
+  </tr>
+  <tr>
+    <td>
+      말 한마디에 천냥 빚진다.
+      <span>생각해보지 않고 나오는 대로 말하다가 실수하면 상대의 마음에 아픔을 남기게 된다.</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      웃는 얼굴에 침 못 뱉는다. 
+      <span>호의적인 의사소통 방법은 자기 말만 하는 것보다 좋은 결과로 이어진다.</span>
+    </td>
+  </tr>
+</table> -->
+
+
+<div class="text_box">
+  <p>속담풀이</p>
+  <p>
+    말 한마디에 천냥 빚진다.
+    <span>생각해보지 않고 나오는 대로 말하다가 실수하면 상대의 마음에 아픔을 남기게 된다.</span>
+  </p>
+  <p>
+    웃는 얼굴에 침 못 뱉는다. 
+    <span>호의적인 의사소통 방법은 자기 말만 하는 것보다 좋은 결과로 이어진다.</span>
+  </p>
+</div>
+
+
+<div id="hover_wrap">
+  <p>
+    [주문] 긴급재난지원금을 쿠팡에서 사용할 수 있나요?
+  </p>
+  <p>
+    다슬기를 키우고 싶은데 어떤 환경이 필요한가요?
+  </p>
+  <p>
+    달팽이가 집을 나갔습니다. 어떻게 하죠?
+  </p>
+</div>
+
+
+
+
+
+<style>
+  .naver_wrap{        outline: 3px solid red;
+    width: 70%;
+    margin: auto;;
+  }
+  .naver_top_int_wrap{
+    width: 100%;
+    border: 1px solid green;
+    border-radius: 30px;;
+  }
+</style> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
