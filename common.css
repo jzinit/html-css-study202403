@@ -1,0 +1,21 @@
+/* css 파일이 다른 css 파일을 불러오는 것  */
+@import url(https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css);
+
+*{
+  box-sizing: border-box;
+}
+.clearfix::after{
+  clear: both;
+  display: block;
+  content: "";
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+
+
