@@ -1,0 +1,134 @@
+
+
+header{
+  text-align: center;
+}
+header h1{
+  padding: 10px;
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+  font-size: 5rem;
+}
+header h1 span{
+  display: block;
+  font-size: 1rem;
+  padding-top: 20px;;
+}
+header h2.stit{
+  width: 100%;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.container{
+  display: flex;
+}
+.container .side-menu{     
+  width: 25%;
+}
+.container .side-menu h3{
+  background-color: darkred;
+  color: #fff;
+  padding: 10px;
+}
+.container .side-menu ul{
+  
+}
+.container .side-menu ul li{
+  padding: 10px;
+}
+.container .side-menu ul li a{
+  color: #000;;
+}
+.container .main-content{    
+  width: 50%;
+  padding: 0 10px;
+  background-color:#eee;
+}
+.container .main-content .art-piece{
+  padding-top: 30px;
+}
+.container .main-content .art-piece h4{
+  padding: 5px;
+  background-color: #113366;
+}
+.container .main-content .art-piece h4 a{
+  color: #fff;
+  text-decoration: none;
+}
+.container .main-content .art-piece .artist{
+  padding: 15px 0;
+  color: #113366;
+}
+.container .main-content .art-piece .detail{
+  color: #113366;
+  
+}
+.container .banner{    background-color:fff;
+  padding: 10px;
+}
+.container .banner h3{
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+.container .banner h3 span{
+  display: block;
+  font-weight: 500;font-weight: bold;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.container .banner h3 span.all{
+  color: #777;
+  font-weight: bold;
+    text-decoration: underline;
+}
+.container .banner h3 span.love{
+  color: orange;
+}
+.container .banner h3 strong{
+  color: #000;;
+  font-weight: 600;
+}
+.container .banner ul{
+  padding-top: 30px;
+}
+.container .banner ul li{
+  padding-bottom: 20px;;
+}
+.container .banner ul li a{
+  color: #000;
+  font-weight: bold;;
+}
+.container .banner ul li span{
+  display: block;
+}
+footer{
+  text-align: center;
+  background-color: #113366;
+  color: #fff;
+}
+address{
+  padding: 10px;
+}
+address a{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

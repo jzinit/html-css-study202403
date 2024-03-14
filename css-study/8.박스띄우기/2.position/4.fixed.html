@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+  <style>
+    body {
+      height: 2000px;
+    }
+
+    header {
+      position: fixed;
+      width: 100%;
+      border-bottom: 2px solid gray;
+    }
+    header h1 {
+      font-size: 40px;
+      padding: 0;
+      margin: 20px 20px 30px;
+      /* background: orange; */
+      float: left;
+    }
+    header nav {
+      /* background: tomato; */
+      float: right;
+    }
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+    }
+    header nav ul li {
+      /* border: 1px solid #000; */
+      float: left;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-right: 30px;
+    }
+
+
+    .clearfix::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+    span{
+      background-color: orange;
+      font-size: 3rem;
+      display: inline-block;;
+      margin-top: 150px;
+    }
+  </style>
+</head>
+<body>
+  
+
+  <!-- header>h1+(nav>ul>li*4) -->
+  <header class="clearfix">
+    <h1>Logo</h1>
+    <nav>
+      <ul class="clearfix">
+        <li>소개</li>
+        <li>커뮤니티</li>
+        <li>자료실</li>
+        <li>회원가입</li>
+      </ul>
+    </nav>
+  </header>
+
+<span>룰루랄라</span>
+
+
+</body>
+</html>

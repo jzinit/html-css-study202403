@@ -1,0 +1,73 @@
+header{
+  padding: 20px;;
+  background-color: #113366;
+}
+header h1{
+  text-align: center;
+  font-size: 2rem;
+  color: yellow;
+}
+header h1 strong{
+  font-size: 5rem;
+  color: #fff;
+  font-weight: bold;
+}
+header h1 span{
+  font-size: 3rem;
+}
+header h1 em{
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bold;
+}
+.container{
+  display: flex;
+}
+ul{
+  width: 20%;
+  padding-top: 30px;
+  background-color: #ddd;
+}
+ul li{
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+ul li a{
+  color: #000;
+}
+.content{
+  width: 80%;
+}
+.content h2{
+  background-color: darkred;
+  color: yellow;
+  padding: 20px 0 20px 30px;
+  font-size: 2rem;
+}
+.content p{
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+footer{
+  width: 100%;
+  display: inline-block;
+  background-color: #777;
+}
+footer address{
+
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
