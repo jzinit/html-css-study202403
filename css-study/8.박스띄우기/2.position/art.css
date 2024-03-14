@@ -65,7 +65,8 @@ header h2.stit{
   color: #113366;
   
 }
-.container .banner{    background-color:fff;
+.container .banner{    
+  width: 25%;
   padding: 10px;
 }
 .container .banner h3{
