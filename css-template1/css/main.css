@@ -13,8 +13,7 @@
 }
 .wrap header .inner-header{    
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -153,6 +152,9 @@ section.about{
 }
 .about .sub-container li .img-box{
   overflow: hidden;
+}
+.about .sub-container li .img-box img{
+  width: 100%;
 }
 .about .sub-container li img:hover{
   transform: scale(5);
@@ -385,6 +387,69 @@ footer .inner .list li{
   font-weight: 500;
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
