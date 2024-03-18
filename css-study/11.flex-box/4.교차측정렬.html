@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  .wrapper{                         outline: 3px solid slateblue;
+      height: 800px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: start; /* 박스전체를 가져가서 정렬함 */
+      /* align-items: center; */   /* 박스 한줄씩 가져가서 정렬함 */
+    }
+    .box{                             outline:3px solid red;
+      width: 250px;
+      height: 100px;
+      border-radius: 15px;
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="box">A</div>
+    <div class="box">B</div>
+    <div class="box">C</div>
+    <div class="box">D</div>
+    <div class="box">E</div>
+  </div>  
+</body>
+</html>
