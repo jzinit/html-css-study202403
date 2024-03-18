@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: saddlebrown;
+      margin: 30px;
+      transform: translate(0,0);
+      animation: zinit 2s 0.5s infinite;
+      animation-fill-mode: both;
+    }
+    
+    /* 애니메이션 정의 */
+    @keyframes zinit {
+      from{
+        background-color: steelblue;
+        transform: translate(100px, 100px);
+      }
+      to{
+        background-color:seagreen;
+        transform: translate(300px, 100px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box"></div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: greenyellow;
+      
+    }
+    .box:hover {
+      /* animation: zinit 2s; */ /* name + duration */
+      /* animation-name: zinit;*/
+      /* animation-duration: 2s;*/ /* 몇초에 애니메이션을 실행 시킬 것인가? */  
+      /* animation-delay: 500ms;   */
+
+      /* animation-iteration-count: 2; */ /* 애니메이션 반복횟수 */
+      /* animation-timing-function: linear; */
+      /* animation-direction: alternate; */
+
+      
+      /* 위에 코드를 한번에 쓰는 코드 */
+      animation: zinit 2s infinite linear alternate;
+      
+    }
+    /* 애니메이션 정의 */
+    @keyframes zinit {
+      0% {
+        width: 100px;
+        background: greenyellow;
+      }
+      50% {
+        width: 500px;
+        background: orange;
+      }
+      100% {
+        width: 300px;
+        background: violet;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
