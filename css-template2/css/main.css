@@ -241,7 +241,7 @@ section.contents .partner ul li:hover{
 
 /* zinit css */
 section .project{
-
+    margin: 200px auto 100px;
 }
 section .project .top{
     width: 80%;
@@ -258,6 +258,7 @@ section .project .top a{
 }
 section .project .animate{
     display: flex;
+    padding-top: 50px;
 }
 section .project .animate li{      
     height: 500px;
